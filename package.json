@@ -1,30 +1,30 @@
 {
-  "name": "this-is-express",
-  "version": "1.0.0",
-  "description": "A project to demonstrate and pratice express.js",
-  "keywords": [
-    "express.js",
-    "express",
-    "learn",
-    "express",
-    "pratice"
-  ],
-  "homepage": "https://github.com/yoelgama/this-is-express#readme",
-  "bugs": {
-    "url": "https://github.com/yoelgama/this-is-express/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yoelgama/this-is-express.git"
-  },
-  "license": "MIT",
-  "author": "Gama",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+    "name": "this-is-express",
+    "version": "1.0.0",
+    "description": "A project to demonstrate and pratice express.js",
+    "keywords": [
+        "express.js",
+        "express",
+        "learn",
+        "express",
+        "pratice"
+    ],
+    "homepage": "https://github.com/yoelgama/this-is-express#readme",
+    "bugs": {
+        "url": "https://github.com/yoelgama/this-is-express/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yoelgama/this-is-express.git"
+    },
+    "license": "MIT",
+    "author": "Gama",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    }
 }
