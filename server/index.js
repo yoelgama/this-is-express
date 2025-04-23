@@ -10,10 +10,14 @@ DELETE: DELETE RESSOURCE
 import express from 'express'
 import { dirname } from "path"
 import { fileURLToPath } from 'url'
+import bodyParser from 'body-parser'
+
 const app = express()
 const port = 3000
 const __dirname = dirname(fileURLToPath(import.meta.url))
-console.log()
+
+app.use(bodyParser.urlencoded({extended: true}))
+
 app.listen(port, () => {
     console.log(`Server running on port ${port}.`)
 })
